@@ -18,6 +18,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @EnableWebMvc
 @Configuration
 @ComponentScan("com.carranza.web")
+
 public class WebAppConfig extends WebMvcConfigurerAdapter {
     
     
